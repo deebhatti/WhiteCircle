@@ -22,7 +22,7 @@ public class Application {
 				case "openBrowser": // i=1,14
 					Methods.openBrowser();
 					break;
-
+					//Adding a Comment in the Code
 				case "maximizeBrowser": // i=2,15
 					Methods.maximizeBrowser();
 					break;
