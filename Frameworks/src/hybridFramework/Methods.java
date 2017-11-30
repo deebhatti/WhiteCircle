@@ -20,6 +20,7 @@ public class Methods {
 
 	public static void maximizeBrowser() {
 		driver.manage().window().maximize();
+		//Added a new comment in line number 23.
 	}
 
 	public static void implementWait() {
