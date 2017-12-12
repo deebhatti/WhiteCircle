@@ -19,6 +19,7 @@ public class MakeMyTrip {
 	@BeforeTest
 	public void openBrowser(){
 		driver = new ChromeDriver();
+		//New Comment
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("https://www.makemytrip.com/");
